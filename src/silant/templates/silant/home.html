@@ -1,11 +1,32 @@
 {% extends "base.html" %}
 {% block content %}
+<header class="card my-2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse">
+  <form>
+    <ul class="navbar-nav">
+    <li class="nav-item"><p class="card-header" class="nav-link">Логотип</p></li>
+      <li class="nav-item"><p class="card-header" class="nav-link">+7-8352-20-12-09, telegram</p></li>
+    <li class="nav-item"><p class="card-header" class="nav-link">Авторизация</p></li></ul>
+    <h4 class="card-header">Электронная сервисная книжка "Мой Силант"</h4>
+  </form></div></nav>
+</header>
 <div class="card my-2">
-  <h5 class="card-header">Featured</h5>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+  <form method="GET" action=""><div class="card-body">
+    <h5 class="card-title">Проверьте комплектацию и технические характеристики техники Силант</h5>
+    <label>Заводской номер:</label><br>
+    <input type="text" name="Factory number"><br>
+    <input type="submit" value="Поиск">
+    <label>Результат поиска:</label><br>
+    <p>Информация о комплектации и технических характеристиках Вашей техники</p>
+  </div></form>
+</div>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse">
+  <footer>
+    <ul class="navbar-nav"><li class="nav-item"><p class="nav-link">+7-8352-20-12-09, telegram</p></li>
+      <li class="nav-item"><p class="nav-link">Мой Силант 2022</p></li></ul>
+  </footer></div></nav>
 </div>
 {% endblock %}
